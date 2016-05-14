@@ -3,18 +3,16 @@
 <!DOCTYPE html>
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
-    <title></title>
+    <title>Home</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-             <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
                 <h1>User Profile</h1>
-                <form class="form" id="form2" runat="server">
+                <form class="form" id="form1" runat="server">
                     <div class="form-group">
                         <asp:Label ID="FirstNameLabel" Text="First Name" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true"></asp:TextBox>
@@ -27,7 +25,7 @@
                         <asp:Label ID="AgeLabel" Text="Age" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true"></asp:TextBox>
                     </div>
-                    <asp:Button CssClass="btn btn-primary" ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
+                    <asp:Button CssClass="btn btn-primary" ID="SubmitButton" runat="server" Text="Submit"  />
                     <br />
                     <hr />
                     <div class="form-group">
@@ -39,7 +37,8 @@
             </div>
         </div>
     </div>
-    </div>
-    </form>
+
+   
+    
 </body>
 </html>

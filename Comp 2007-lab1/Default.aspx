@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Comp_2007_lab1.Default" %>
 
 <!DOCTYPE html>
+<!--Author Name: Anuroop Reddy-->
+<!--Student Number: 200265054-->
 
 
 <html lang="en">
